@@ -1,0 +1,48 @@
+body {
+    margin: 0 auto;
+}
+
+.block-logo-menu {
+    display: flex;
+}
+
+.block-logo {
+    background-color: #F0BE2E;
+    width: 100px;
+    height: 100px;
+}
+
+.block-menu {
+    background-color: #F40F0F;
+    height: 100px;
+    width: 100%;
+}
+
+.block-news-list-nav {
+    display: flex;
+}
+
+.block-news {
+    background-color: #AC4C4C;
+    width: 100px;
+    height: 300px;
+}
+
+.block-list {
+    background-color: #F0BE2E;
+    height: 300px;
+    width: 65%;
+}
+
+.block-nav {
+    background-color: #333333;
+    height: 450px;
+    width: 35%;
+    float: left;
+}
+
+.block-footer {
+    background-color: #F0BE2E;
+    height: 150px;
+    margin-top: -150px;
+}
