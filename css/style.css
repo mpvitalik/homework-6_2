@@ -4,6 +4,7 @@ body {
 
 .block-logo-menu {
     display: flex;
+    box-sizing: border-box;
 }
 
 .block-logo {
@@ -14,12 +15,14 @@ body {
 
 .block-menu {
     background-color: #F40F0F;
-    height: 100px;
-    width: 100%;
+    flex-grow: 1;
+    border-bottom: 1px solid black;
+    width: calc(100% - 2px);
 }
 
 .block-news-list-nav {
     display: flex;
+    box-sizing: border-box;
 }
 
 .block-news {
@@ -32,6 +35,8 @@ body {
     background-color: #F0BE2E;
     height: 300px;
     width: 65%;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
 }
 
 .block-nav {
@@ -44,5 +49,19 @@ body {
 .block-footer {
     background-color: #F0BE2E;
     height: 150px;
-    margin-top: -150px;
+    /* margin-top: -150px; */
+    border-right: 1px solid black;
+    width: calc(100% - 35% + 33px);
 }
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block:first-child {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
